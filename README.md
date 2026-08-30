@@ -6,6 +6,9 @@ Uma decompilação do jogo **Stick Fight: The Game**.
 
 * Unity 2017.4.40f1
 * Git
+* Library do projeto (Download: https://www.mediafire.com/file/kk4h0qkwwp5qbif/LibraryStickFightDecomp.zip/file)
+
+Só precisa renomear de "LibraryStickFightDecomp" para "Library".
 
 ## Créditos
 
