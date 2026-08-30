@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Xmas_Snowman3
+  m_Rect:
+    serializedVersion: 2
+    x: 3.0761204
+    y: 2.042908
+    width: 252.89713
+    height: 243.92317
+  m_Offset: {x: 0.9753229, y: 0.99551123}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.5038566, y: 0.50408125}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 2fce969c9e3f97443999a99670adc546, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 36
+      topology: 0
+      firstVertex: 0
+      vertexCount: 14
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 0d000c0009000b0009000c000a0009000b00060009000a00080009000600050008000600010008000500070005000600040001000500030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 14
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 280
+      _typelessdata: d7a3a03fcdccccbe000000000000000000000000ae47913fa4709dbf000000000000000000000000d7a3a03f14ae47bf000000000000000000000000d7a3803fcdcc4cbe0000000000000000000000003d0a373f5c8f423e000000000000000000000000cdcc8c3eb81e053e0000000000000000000000001f85abbe48e19a3f0000000000000000000000005c8f82be48e19a3f000000000000000000000000000060bfa4709dbf0000000000000000000000008fc285bff6289cbf0000000000000000000000009a9989bfa4703d3f000000000000000000000000000090bf52b89ebe0000000000000000000000003333a3bf14ae07bf0000000000000000000000003333a3bf5c8f42bf000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 3.0761204
+      y: 2.042908
+      width: 252.89713
+      height: 243.92317
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 130.5, z: 100, w: 125}

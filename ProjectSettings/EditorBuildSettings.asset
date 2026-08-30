@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Scenes:
+  - enabled: 1
+    path: Assets/4 Scenes/MainScene.unity
+    guid: 89e4de4c2b88fc94bbd733462cb5c786
+  - enabled: 1
+    path: Assets/00 Levels/1 Woods/Woods1.unity
+    guid: 6dc4a4daa6c05db4faf3a599cc9af7e6
+  - enabled: 1
+    path: Assets/00 Levels/1 Woods/Woods2.unity
+    guid: 87ccc341b65199c40bd656a0db859ac9
+  - enabled: 1
+    path: Assets/00 Levels/1 Woods/Woods3.unity
+    guid: 84b0925d7acf80845862be84522591b3
+  - enabled: 1
+    path: Assets/00 Levels/1 Woods/Woods4.unity
+    guid: b03f0769ccd3f654e81fe5fb246edbc6
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert2.unity
+    guid: 0d6d086cf2676d04aa94beee85b6c23e
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert3.unity
+    guid: 288c474116f65a841b16fba75fe7533b
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert4.unity
+    guid: f35bc52c34785c04ab073cee0b138d3b
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert5.unity
+    guid: e4787d62700edc84390a5922b42c5e5b
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert6.unity
+    guid: ea5c207f9644de743ac8ba3d139b4817
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert7.unity
+    guid: 375603fee908a0243b29472d459198ea
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert8.unity
+    guid: 38fecfa97d00e9f4a9954d3b956e9873
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert9.unity
+    guid: 3eef9579ac192b44189d82fcf66d3c07
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory1.unity
+    guid: a024584fe0bcf2944b21d0a9bb3c9697
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory2.unity
+    guid: ffa4f8c27b217b04183ddd87893d4c8b
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory3.unity
+    guid: 2c73cbc8becf96e48aaecbf6929c885d
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory5.unity
+    guid: f6d7673fc964ced4baa46bae3894f91f
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory7.unity
+    guid: 1635f9daa5f64bd41910322968de8b18
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory8.unity
+    guid: 97ab79243c38b854bb6dc3b88d528bd9
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory9.unity
+    guid: d49e445f1a6607a40901aeb7d046016f
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory10.unity
+    guid: bb1b6bd8a6591414f85d224cef9cf19f
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory11.unity
+    guid: 60c703a0b55f2c44fbd2c46088baf7ea
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle1.unity
+    guid: 46d4576255ab88a49b7f96ecb97712e3
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle2.unity
+    guid: 9236b2e7023af8a48ae0b57a46751e11
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle3.unity
+    guid: 16b2ff5f699f6144a8edae6bda7fc60c
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle4.unity
+    guid: 9ce666c750698894ba70ad53c1984d9a
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle5.unity
+    guid: 1a98b7f93f9833e44ba802a2f16646e2
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle5b.unity
+    guid: 77538a14ba641654ba3dca3991500614
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle6.unity
+    guid: 1688e973fe136d645a4006bc4e4b637f
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle7.unity
+    guid: 866005fc5c49d794bacc7b0f53ae558a
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle8.unity
+    guid: 8152a3b686fb35e4aa9f5f310d54200d
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle9.unity
+    guid: 955989316e55a964886b044321f685c8
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle10.unity
+    guid: 1cd1773fa6833484f913c9527d3f5a7c
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle11.unity
+    guid: 6996a48dde0432241a3ad402e3034ede
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle12.unity
+    guid: 60b772dd7b2fb634692b2fad45f16907
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle13.unity
+    guid: dcf81e8f5d3e09a47981a2733657e0fc
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle14.unity
+    guid: 5a4a9b22136707a4b90be5ec65bb6f38
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle15.unity
+    guid: 50e722355fcec9b4bb54d66d0b3c98f0
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle16.unity
+    guid: ac8bca4cfe469e34099b689ec5e6954c
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 1.unity
+    guid: 43c95cf29045ef54e8ea0d4038158292
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 2.unity
+    guid: fef11277ef1ddc24a8884601d1fc94be
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 3.unity
+    guid: 28ea5b3803bceef4f89f94640d94f954
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 4.unity
+    guid: 57d5126c880220e4ab06f1d6503deb45
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 5.unity
+    guid: 3d64186666dd0bc4bb058a9c8a8305fc
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 6.unity
+    guid: a3ca5bd283822974889026c45a029fac
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 7.unity
+    guid: 565ea234bce5ef94a82285b6ae9a7da5
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 8.unity
+    guid: c1cce04575bc56e46bf676fde6fca87c
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice1.unity
+    guid: e742ca97a155c9b47b80b4867c5591a6
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice2.unity
+    guid: 82e00174e434b3d4e8606f6de8ca7e2b
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice3.unity
+    guid: 4ef6c49301fb4b548a1dd795f30b1c24
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice4.unity
+    guid: 617bf2d4b4a6e60418276ecdef53bc0e
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice5.unity
+    guid: 337a267391b548946b6788790d9b9faf
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice6.unity
+    guid: 8356a7b2c432ed349a45eca04ee87025
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice7.unity
+    guid: 039218cc4472c694d9d58e09bd72e45a
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice8.unity
+    guid: 2fe95341e3479604cb810b3ae0bae953
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice9.unity
+    guid: 09679167058d082488a9a686f01eb6a0
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice10.unity
+    guid: 9a5e1083aac05d347b09909d98eeb5f3
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice11.unity
+    guid: 5c49213b18156424d9b34880f1bd518e
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice12.unity
+    guid: 0697a7f72309c0540900e182cf9d7775
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser1.unity
+    guid: 117564dca3ea92e4bb6c996a779cb033
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser2.unity
+    guid: 0dbcba8062c2f7f4e91dd8f8f5e64eb6
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser3.unity
+    guid: 6bdcfb384ce41c44d96f114aa55a364f
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser4.unity
+    guid: 5895ec5ee021b9141825e6a35ec4950b
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser5.unity
+    guid: 074448d25c33a0241a0f975de21ccd3c
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser6.unity
+    guid: 1da27b30a26aafa4594dc0f5d0338e37
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser7.unity
+    guid: c4cf2d97de9f1e9409ee5aedf6d56da3
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser8.unity
+    guid: d1a4f9710a0d11a40a454790d690a470
+  - enabled: 1
+    path: Assets/00 Levels/4 Castle/Castle17.unity
+    guid: 1322d2244dab5f94bb60f53d8b96dfbf
+  - enabled: 1
+    path: Assets/00 Levels/7 Laser/Laser10.unity
+    guid: 47ecd6b9fc6994746b9dfc7cdd4ebddc
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice13.unity
+    guid: 8a42af1bdf10a4f4b934b7e0afcd6fdd
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory14.unity
+    guid: 6876e6d053027884a8722d722cb62b45
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory13.unity
+    guid: 95445ea52b227bb478b3624d27b76b40
+  - enabled: 1
+    path: Assets/00 Levels/3 Factory/factory12.unity
+    guid: f44c223608686104aa13ccd804344e66
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 10.unity
+    guid: d359acc967c15d848ab5865343fe34a8
+  - enabled: 1
+    path: Assets/00 Levels/6 Western/Western 11.unity
+    guid: 6777ea95a5e39144abae087488d643bd
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert10.unity
+    guid: a002297b0b8f1584eac118cea4c3f49d
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert11.unity
+    guid: 5140306b150722d438d62c372843718e
+  - enabled: 1
+    path: Assets/00 Levels/2 Desert/Desert12.unity
+    guid: dbb5ef7c1f91f7248899a647eb9448f2
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice16.unity
+    guid: 551f8d0937269a043953aa1950ff5eaf
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice15.unity
+    guid: a2dbcafaa7b9e2e46b4ac59136029c11
+  - enabled: 1
+    path: Assets/00 Levels/5 Winter/Ice14.unity
+    guid: 617e78fc2bb953845ad0c827ec0c7ea7
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava2.unity
+    guid: ca18d628df9b60f4e9317e5280964f7b
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava6.unity
+    guid: 00c90b30de848254a938a7253eeafc8c
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava3.unity
+    guid: ff4cba502d0924a438ad2e93046c4491
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava4.unity
+    guid: 411c4b18c4c2b364ba68025b95e9d579
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava5.unity
+    guid: 21d9840e24490134c8ae53a688508647
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava7.unity
+    guid: bc8d5493e26e311488f43aa3a6242541
+  - enabled: 1
+    path: Assets/1 Prefabs/LevelEditor/LevelEditorProps/Lava8.unity
+    guid: c5dcbb766ced8d6469509cc62d28494f
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava9.unity
+    guid: ec691d0af39c32246971430f603772b3
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava10.unity
+    guid: 9e87a6e6a641e0d4187c3427a6991371
+  - enabled: 1
+    path: Assets/00 Levels/8 Lava/Lava11.unity
+    guid: d8202218526682b42bdff5cc8efdc540
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/Halloween2.unity
+    guid: 11de3e09fe667644d8d5266b9c51233a
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/HalloweenBoss1.unity
+    guid: 8b13f4f78706aca41851cd387523b9fd
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/Halloween3.unity
+    guid: b39075fe113797745af5ec2e3978f2b2
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/Halloween4.unity
+    guid: 4c2bcbf792ac6f54782c507b23f043d8
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/HalloweenBoss2.unity
+    guid: 6dde863b967dc3b42b2284f11352327c
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/Halloween8.unity
+    guid: 00c56a98f795684459c526acd4c8edd1
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/Halloween9.unity
+    guid: c102538839b7119488a72f1786fb073f
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/HalloweenBoss3.unity
+    guid: 831bcc4251139b847a90346ebf6f907c
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/Halloween10.unity
+    guid: 907ff5ce398381140813bbba6a20234e
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/Halloween12.unity
+    guid: 9293587d5f3d12e4d9602db04f231dfd
+  - enabled: 1
+    path: Assets/00 Levels/Halloween/HalloweenBoss4.unity
+    guid: e2333e4b716c4e44e97f87ad97ed1939
+  - enabled: 1
+    path: Assets/00 Levels/STATS.unity
+    guid: 29c5e7128ee5ff44ab1de454248641c9
+  - enabled: 1
+    path: Assets/4 Scenes/LevelEditor.unity
+    guid: 90c5740f5f817b34f9d0d72876b61229
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas1.unity
+    guid: 228aef913bce0d146b34697a1753fdcd
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas2.unity
+    guid: af2245accd1c9784da7f048f112a26c0
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas3.unity
+    guid: 80bbdf7626b431648ae3f0b9626ebf45
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas4.unity
+    guid: 817f6db86d70ee64e8e475a9ea0faf2d
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas5.unity
+    guid: 5df511ba3e0760e4d883f03f0c180d35
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas6.unity
+    guid: 363672700d6d4314698943aa483c60ff
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas7.unity
+    guid: c038cbd838ca060499df0e68c107621e
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas8.unity
+    guid: 7bfb98b7a6fea674796c171804b9e2b1
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas9.unity
+    guid: da4e14c352fa6d740aa0600d8aa1da7b
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas10.unity
+    guid: 93bae531fe850814ba1f999534659987
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas11.unity
+    guid: 874840429f95ca14b8cc49e8a4bf243b
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas12.unity
+    guid: 5b3f596d7a593774584eb0624eceac98
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas13.unity
+    guid: 970be56f2ea86ac4988e8bcb1d35ac76
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas14.unity
+    guid: 70feb10f16e2c8747b5b5312c8bdd300
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas15.unity
+    guid: 28f550cc57a5f03428fa86d434160444
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas16.unity
+    guid: 525bf1387765d5a4e86f58a55b16f9ba
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas17.unity
+    guid: 88719969f58fa1b4aaf3e544299d863b
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas18.unity
+    guid: e0ed65b1145d419469ae70bd679c893a
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas19.unity
+    guid: 900327ffc8b187940a182b153d598c3d
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas20.unity
+    guid: 608fb4a699ed6ff488d6adddbc2b7971
+  - enabled: 1
+    path: Assets/00 Levels/Xmas/Xmas21.unity
+    guid: 76de3fe2243476c43be29a80696d6070
