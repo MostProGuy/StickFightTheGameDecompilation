@@ -1,0 +1,1255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5BB7E9B2-DAAC-E6A6-6D4C-F52FF86D00FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_40;UNITY_2017_4;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_LINUX;PLATFORM_STANDALONE;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddCircularForce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddFire.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddForce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddForceByRay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddForceByTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddForceByWobble.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddForceOverTime.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddForceToAllRigidbodyChildren.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddForceToSticky.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddForceWhenLookingDown.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddJoints.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddRandomTorqueAndForce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddShake.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AimTarget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AimTargetHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AimTargetPunch.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnalytcisTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnalyticsEvents.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Animations.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationSegment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationSequence.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnyInputEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Armor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ArrowHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AspectFix.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AttachObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BackGround.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Balance.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BarsHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BasicExample\BasicExample.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Billboard.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BindingsExample\BindingsExample.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BindingsExample\PlayerActions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BlackHole.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Blink.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BlinkObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BlockAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BlockHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BlockParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BluntCollision.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BodyPart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BombSpawn.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BossBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BossHealth.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BossTimer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BowHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ByteFloat.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ByteVector2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraColor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ChainSounds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterActions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterInformation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterStats.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ChatController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ChatHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ChatManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CheckDynamicCollision.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CheckForGroundCollision.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ClientStats.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CodeAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CodeStateAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CollisionDamage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CollisionEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CollisionParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CombinedMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConnectedClientData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConnectionErrorType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConnectionType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConstrainSelectionToChildren.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Controller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ControllerHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CountDown.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Crown.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomLevelWrapper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomMapInfoSubscriberHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DamageByColor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DamageEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DamageParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DamagerHolder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DamageType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DebugExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DestroyObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DestructibleObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DestructiblePiece.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DestructionGroup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DirectoryExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DisableIfNetwork.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DisableIfPlayed.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DontBeRude.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DontEnableRig.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DragHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DynamicCam.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EditorCameraHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableAfterFrame.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableAll.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableIfAttacking.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableObjectEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableObjectIfActive.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableObjectsOnAwake.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableObjectsPerPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableOnAwake.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableParticleIfActive.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableParticlesByRaycast.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnableScriptIfActive.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnvMapAnimator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExampleWheelController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Explosion.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExplosionSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExtendedInputModule.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FadeSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FallingRock.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FallOutPart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Fighting.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FlameAudioHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FollowRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FollowTransform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FootDust.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FootParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ForceEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ForceRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FracturedChunk.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FracturedObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GhostGun.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GhostPlatform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GhostPlatformSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Glue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\God.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GodText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GoOnlineWhenTouched.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Grabber.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GrabHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Gravity.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GunButtonUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\haxxsavestate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Head.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HeadRenderer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HealthHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HelpUp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Hip.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HoardHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HostLeverHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IceDestructionAudio.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IceEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IgnoreBullets.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IgnorePlayerWhenOffScreen.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AirFloWiredPS3MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AirFloWiredPS3ProfileWin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AmazonFireTVProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AmazonFireTVRemoteProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AndroidTVAmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AndroidTVProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AndroidTVRemoteProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AppleMFiProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AppleTVControllerProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AppleTVRemoteProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\AutoDiscover.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\BindingListenOptions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\BindingSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\BindingSourceListener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\BindingSourceRejectionType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\BindingSourceType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\BuffaloClassicAmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\BuffaloClassicMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\BuffaloClassicWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\CustomInputDeviceProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\DeviceBindingSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\DeviceBindingSourceListener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\DragAxis.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\DroidBoxPS3AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\DroidBoxXboxAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoFC30ProAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoNES30ProAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoNES30ProBTMacNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoNES30ProMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoNES30ProUSBMacNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoNES30ProWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoNES30ProWindowsProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSFC30AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSFC30MacNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSFC30MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSFC30WindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSFC30WindowsProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSNES30AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSNES30MacNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSNES30MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSNES30WindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\EightBitdoSNES30WindowsProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\ExecutionerXProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\FixXBG301AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\FlareAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GameCubeWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GameSirG3sAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GameSirG3wAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GameSirG4sAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GameStickLinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GameStickProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GenericAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GenericBlackBerryProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GenericLinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\GreenThrottleAtlasAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\HamaBlackForceWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\ICadePluginPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\IInputControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InControlException.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InControlInputModule.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InControlManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputControlMapping.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputControlSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputControlState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputControlType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputDevice.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputDeviceClass.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputDeviceManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputDeviceProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputDeviceStyle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputRange.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\InputRangeType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Internal\CodeWriter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\IpegaPG9023AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\IpegaPG9025AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Key.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\KeyBindingSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\KeyBindingSourceListener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\KeyCombo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\KeyInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LevelUpBlackHawkWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LockAxis.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Logger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF310LinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF310ModeDMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF310ModeDWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF310ModeXMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF310ModeXWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF510LinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF510ModeDMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF510ModeDWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF510ModeXMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF510ModeXWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF710LinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF710MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF710ModeDWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechF710ModeXWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechModeDAmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechModeXAmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogitechWingManWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogMessage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\LogMessageType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MadCatzCTRLRAmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MadCatzCTRLRAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MadCatzMicroCTRLRAmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MarshalUtility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MaxFireBlaze5Profile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MogaHeroPowerAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MogaProAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MogaProLinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MogaProMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MogaProPowerAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MogaProWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Mouse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MouseBindingSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\MouseBindingSourceListener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NatecGenesisP44Profile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Native.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeAnalogSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeButtonSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeDeviceDriverType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeDeviceInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeDeviceTransportType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeInputDevice.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeInputDeviceManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeInputDeviceMatcher.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeInputDeviceProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeInputDeviceProfileList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeInputOptions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\AfterglowPrismaticXboxOneControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\AfterglowXbox360WindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\AirFloPS3WindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\BatarangControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\BETAOPControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\BigBenControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\BuffaloClassicMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\BuffaloClassicWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\EASportsControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\GameStopControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\GuitarHeroControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriBlueSoloControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriDOA4ArcadeStickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriEX2ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriFightingStickEX2MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriFightingStickVXMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriFightStickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriPadEXTurboControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriRealArcadeProEXMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriRealArcadeProEXPremiumVLXMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriRealArcadeProEXSEMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriRealArcadeProHayabusaMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HORIRealArcadeProVKaiFightingStickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HORIRealArcadeProVXMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriRealArcadeProVXSAMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriXbox360GemPadExMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\HoriXboxOneControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\IonDrumRockerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\JoytekXbox360ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\KonamiDancePadMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechChillStreamControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF310ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF310ModeDMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF310ModeDWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF310ModeXWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF510ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF510ModeDMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF510ModeDWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF510ModeXWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF710ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF710ModeDMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF710ModeDWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechF710ModeXWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\LogitechG920RacingWheelMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzArcadeStickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzBrawlStickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzCODControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzFightPadControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzFightPadMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzFPSProMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzMicroConControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzMicroControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzPortableDrumMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzProControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzSaitekAV8R02MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzSF4FightStickRound2TEMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzSF4FightStickSEMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzSF4FightStickTEMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzSSF4ChunLiFightStickTEMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MadCatzSSF4FightStickTEMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MatCatzControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MicrosoftXbox360ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MicrosoftXboxControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MicrosoftXboxOneControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MicrosoftXboxOneEliteControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MLGControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\MVCTEStickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\NaconGC100XFControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\NVidiaShieldWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PDPAfterglowControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PDPMarvelControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PDPTronControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PDPVersusControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PDPXboxOneArcadeStickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PDPXboxOneControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PlayStation3MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PlayStation4MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PlayStation4WindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PowerAAirflowControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\POWERAFUS1ONTournamentControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PowerAMiniControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PowerAMiniProExControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PowerAMiniXboxOneControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\PowerASpectraIlluminatedControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\ProEXXbox360ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\ProEXXboxOneControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\QanbaFightStickPlusMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RazerAtroxArcadeStickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RazerOnzaControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RazerOnzaTEControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RazerSabertoothEliteControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RazerServalWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RazerStrikeControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RazerWildcatControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RedOctaneControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RockBandDrumsMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RockBandGuitarMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RockCandyControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RockCandyXbox360ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\RockCandyXboxOneControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\SaitekXbox360ControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\SteamWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\ThrustmasterFerrari458RacingWheelMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\ThrustmasterGPXControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\TrustPredatorJoystickMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\TSZPelicanControllerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\Xbox360DriverMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\Xbox360WiredWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\Xbox360WirelessWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\XboxOneDriverMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\XboxOneEliteWindows10AENativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\XboxOneEliteWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\XboxOneWindows10AENativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\XboxOneWindows10NativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\XboxOneWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\XboxOneWirelessAdapterWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeProfile\XInputWindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NativeVersionInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NexusPlayerMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NexusPlayerProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NexusPlayerRemoteProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NexusPlayerWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NVidiaShieldAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NVidiaShieldWin10Profile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NVidiaShieldWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\NykoPlayPadProAmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\OneAxisInputControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\OuyaAmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\OuyaEverywhereDevice.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\OuyaEverywhereDeviceManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\OuyaLinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\OuyaWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayerAction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayerActionSet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayerOneAxisAction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayerTwoAxisAction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation2WinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation3AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation3BWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation3LinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation3MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation3ShenghicWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation3WinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4AmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4AndroidXperiaZ5Profile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4LinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4MacBTProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4MacUSBProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4Profile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4SteamLinkMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStation4WinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\PlayStationVitaPSMProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\RazerServalForgeTVProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\RazerServalMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\RedSamuraiAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\RingBuffer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SaitekAviatorWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SamsungGP20AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SingletonMonoBehavior.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SingletonPrefabAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SpeedlinkStrikeMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SpeedlinkStrikeWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SteelSeriesFreeAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SteelSeriesFreeLinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SteelSeriesFreeMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SteelSeriesFreeWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SteelSeriesStratusXLAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\SteelSeriesStratusXLWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TestInputManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\ThreadSafeQueue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Touch.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchButtonControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchControlAnchor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchInputDevice.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchPool.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchSpriteShape.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchStickControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchSwipeControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchTrackControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchUnitType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TouchUtility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\TwoAxisInputControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityAnalogSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityButtonSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityGyroAxisSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityInputDevice.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityInputDeviceManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityInputDeviceProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityInputDeviceProfileBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityInputDeviceProfileList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityKeyCodeAxisSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityKeyCodeComboSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityKeyCodeSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityMouseAxisSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnityMouseButtonSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnknownDeviceBindingSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnknownDeviceBindingSourceListener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\UnknownDeviceControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Utility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\ValveStreamingWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\VersionInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Xbox360AmazonProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Xbox360AndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Xbox360LinuxProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Xbox360MacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Xbox360RockCandyAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\Xbox360WinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XboxOneBluetoothAndroidProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XboxOneInputDevice.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XboxOneInputDeviceManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XboxOneMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XboxOneProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XboxOneWin10AEProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XboxOneWin10Profile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XboxOneWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XiamoiMacProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XiamoiWinProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XInputDevice.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XInputDeviceManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XTR_G2_MacNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XTR_G2_MacUnityProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XTR_G2_WindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XTR_G2_WindowsUnityProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XTR55_G2_MacNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XTR55_G2_MacUnityProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XTR55_G2_WindowsNativeProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InControl\XTR55_G2_WindowsUnityProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InitWeaponPickUpOnAwake.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InputType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InterfaceMovement\Button.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InterfaceMovement\ButtonFocus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InterfaceMovement\ButtonManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IsBeingThrown.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\JointAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\JointDummy.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\JumpParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KeepLocalPositionButStayInDimention.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KeepUpUsingDot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KeybindingButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KeybindingButtonHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KeybindingInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KeybindingText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KeyboardAndMouseExample\CubeController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KIllAllOutOfRange.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KillIfFast.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KillingFloor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\ClientStats.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\ConnectedClientData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\MultiplayerManagerSockets.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\NetworkSocketClientConnection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\NetworkSocketData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\NetworkSocketServer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\ObjectDestructionType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\SocketPlayerLoginInformation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Landfall\Network\Sockets\SpawnableObjectType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LandParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LaserAudioHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LaserRaycast.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LaserSpecialBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LavaFlow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeftArm.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeftElbow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeftHand.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeftKnee.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeftLeg.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\CustomLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\DialougePanelUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\EditorCollider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\EditorLoadSave.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\EditorLoadSaveUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\EditorSystemUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\EditorToolsUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\EditorUIBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\EditorWeaponUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\InterfaceManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelButtonUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelCreator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelEditorInputManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelEditorSoundHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelObjectProperties.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelObjectPropertiesFactory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\LevelToolsHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\MapGrid.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\MapSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\MapSizeHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\MapSpace.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\NetworkComponentTAG.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\PlaytestingUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\PopulateToolButtons.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\PropSpecialBehaviourBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\ResourcesManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\SaveableLevelObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\SaveableWeaponObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\SaveNameResultEnum.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\ScreenshotHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\SerializableVector2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\SpikeRotateFromNormal.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\ThemeButtonsUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\ThemeHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\ThemeProps.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\ToolButtonUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\WeaponObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\WelcomeHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\WorkshopContentHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\WorkshopDataHolder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\WorkshopItemCreator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\WorkshopLevelManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\WorkshopMapWrapper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditor\WorkshopStateHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEditorSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelSelection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LoadingScreenManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LocalWorkshopWrapper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LogicArcsAndColumns.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LogicCollidingSphere.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LogicCompoundObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LogicExplodingFloor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LogicExplodingGoblin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LogicGlobalFracturing.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LookAtVelocity.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapCategoryTAG.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapInfoOnlineTag.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapInfoSyncableBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Maps.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapSelectionHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapSelectionPreviewUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapWorldsEnum.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MapWrapper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MatchmakingHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MatchMakingHandlerSockets.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MemoryBucket.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MimicRotationParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MoveAlongPathUsingForce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Movement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MovementAbility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MoveObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MovePlayers.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MoveTransform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MultiplayerBasicExample\Player.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MultiplayerBasicExample\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MultiplayerManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MultiplayerManagerAssets.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MultiplayerWithBindingsExample\Player.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MultiplayerWithBindingsExample\PlayerActions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MultiplayerWithBindingsExample\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MusicClip.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MusicHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MutlipleRaycastParticles.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NetworkPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NetworkSyncableObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NoRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectSpawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnlineBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnlinePlayerUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnlineRoom.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Optional.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OptionsButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OptionsHolder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OrigoMeBro.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OutOfBoundsEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\P2PPackageHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\P2PStatistics.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PacketTypeStatisticsWrap.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ParryParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ParticleTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PauseManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PhysicsAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PhysicsPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PillarHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PingHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayableWorkshopLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerActions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayingInEditorManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayMoveAnimations.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayParticles.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayParticlesFromAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayRandomClip.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\AdvancingFront.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\AdvancingFrontNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\ConstrainedPointSet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\Contour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\DelaunayTriangle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\DTSweep.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\DTSweepBasin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\DTSweepConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\DTSweepContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\DTSweepDebugContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\DTSweepEdgeEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\DTSweepPointComparator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\Edge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\EdgeIntersectInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\FixedArray3.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\FixedBitArray3.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\ITriangulatable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\MathUtil.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\Orientation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\P2T.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\Point2D.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\Point2DEnumerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\Point2DList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\PointGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\PointOnEdgeException.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\PointSet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\Polygon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\PolygonGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\PolygonOperationContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\PolygonPoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\PolygonSet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\PolygonUtil.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\Rect2D.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\SplitComplexPolygonNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationAlgorithm.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationDebugContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationPoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationPointEnumerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationPointList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Poly2Tri\TriangulationUtil.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ProjectileBounce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ProjectileCollision.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ProjectilePackageStruct.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Prop.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ProprFlipAroundYIndeadOfX.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PunchForce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PunchParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomMaterial.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomPitch.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomScale.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomValue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomVariation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RayCast.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RaycastEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RayCastForward.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ReachForPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RemoveAfterSeconds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RemoveAI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RemoveOffScreen.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RemoveOnLevelChange.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RemovePart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RemoveParticles.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Renderers.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ResolutionSetting.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RightArm.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RightElbow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RightHand.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RightKnee.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RightLeg.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RigidBodyIndexHolder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RigidbodyMovement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RigidbodySettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RigidWobble.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Rotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Scaler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScaleRandomGameObjects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScreenshakeHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SelectableGunUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SelectableWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SelectMe.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ServerLobbyTextUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetChildrenFree.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetColorWhenDamaged.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetImageColor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetImageColorByID.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetLinePositions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetMovementAbility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetParticleColor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetPArticlesFree.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetPositionByRayCast.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetRandomEnabledObjects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetRigidbodySettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetScaleByRayCast.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetTargetFrameRate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetTextColorOnSelected.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetValueAnimationByValocity.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetWorldPosition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShakeOnImpact.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Shoot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShortVector2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShrinkOverTime.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SingleMapUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SingleWeaponCellUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SnakeAI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SnakeSpawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SoundPan.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpawnableObjectType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpawnEnemy.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpawnObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpawnObjectAfterDelay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpawnObjectInRandomRange.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpawnStickyObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Standing.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StatLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StayInDimension.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SteamDataSuite\SteamDataAttribution.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SteamManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SteamStatsAndAchievements.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StepController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StickFightConstants.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StickFightDirectoryPaths.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StickyObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SyncableObjectManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TargetHolder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TeamHolder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TestChamberSyncHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TestChamberSyncObjectReciever.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TestChamberSyncObjectSender.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ThrownWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimeEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimeHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Torso.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TouchExample\CubeController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Translate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TreadMill.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TreadmillPerson.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerDamage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerDamageOnce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UdpConnectedClient.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UdpSockets.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\CapEdge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\ClippedEdge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\ConcaveColliderInterface.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\DieTimer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\EdgeKeyByHash.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\EdgeKeyByIndex.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\Fracturer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\MeshData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\MeshDataConnectivity.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\MeshFaceConnectivity.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\Parameters.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\SupportPlane.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturing\VertexData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateFracturingFPS.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\AntialiasingModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\BloomComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\BloomModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\BuiltinDebugViewsComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ColorGradingComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ColorGradingCurve.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ColorGradingModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\DitheringComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\DitheringModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\FogComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\FogModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\FxaaComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\GetSetAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\GrainComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\GrainModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\GraphicsUtils.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\MaterialFactory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\MinAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\MotionBlurComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\MotionBlurModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingComponentBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingComponentCommandBuffer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingComponentRenderTexture.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\RenderTextureFactory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\TaaComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\TrackballAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\UserLutComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\UserLutModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\VignetteComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\VignetteModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UpdateDestructibles.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UpdateIndexHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Value.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ValueAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ValueCurve.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Vicotory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VirtualDeviceExample\VirtualDevice.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VirtualDeviceExample\VirtualDeviceExample.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Walkable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponCategoryTAG.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponPickUp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Weapons.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponSelectionHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WhiteTextOnHover.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WinCounterUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WinText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Wobble.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WobbleRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WobbleTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WorkshopMapsLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\ButtonState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\GamePad.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\GamePadButtons.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\GamePadDPad.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\GamePadState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\GamePadThumbSticks.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\GamePadTriggers.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\Imports.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\XInputDotNetPure\PlayerIndex.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <None Include="Assets\Resources\shaders\tmp_sdf-mobile overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Resources\shaders\builtindebugviews.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\Resources\shaders\MotionBlur.cginc" />
+     <None Include="Assets\Resources\shaders\uber.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Resources\shaders\graingen.shader" />
+     <None Include="Assets\Resources\shaders\tmp_bitmap.shader" />
+     <None Include="Assets\Resources\shaders\tmp_sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Resources\shaders\lutgen.shader" />
+     <None Include="Assets\Resources\shaders\taa.shader" />
+     <None Include="Assets\Resources\shaders\tmp_sdf.shader" />
+     <None Include="Assets\Resources\shaders\ACES.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Resources\shaders\UberSecondPass.cginc" />
+     <None Include="Assets\Resources\shaders\tmp_bitmap-mobile.shader" />
+     <None Include="Assets\Resources\shaders\screenspacereflection.shader" />
+     <None Include="Assets\Resources\shaders\Tonemapping.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Resources\shaders\TMPro.cginc" />
+     <None Include="Assets\Resources\shaders\tmp_sdf-mobile masking.shader" />
+     <None Include="Assets\Resources\shaders\FXAA3.cginc" />
+     <None Include="Assets\Resources\shaders\depthoffield.shader" />
+     <None Include="Assets\Resources\shaders\tmp_sdf overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Resources\shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Resources\shaders\eyeadaptation.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+     <None Include="Assets\Resources\shaders\fxaa.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Resources\shaders\tmp_sdf-surface.shader" />
+     <None Include="Assets\Resources\shaders\motionblur.shader" />
+     <None Include="Assets\Resources\shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Resources\shaders\Common.cginc" />
+     <None Include="Assets\Resources\shaders\tmp_sdf-mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Resources\shaders\ambientocclusion.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Resources\shaders\tmp_sdf-surface-mobile.shader" />
+     <None Include="Assets\Resources\shaders\bloom.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Resources\shaders\Bloom.cginc" />
+     <None Include="Assets\Resources\shaders\EyeHistogram.compute" />
+     <None Include="Assets\Resources\shaders\TAA.cginc" />
+     <None Include="Assets\Resources\shaders\fog.shader" />
+     <None Include="Assets\Resources\shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\Resources\shaders\DiskKernels.cginc" />
+     <None Include="Assets\Resources\shaders\DepthOfField.cginc" />
+     <None Include="Assets\Resources\shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Resources\bluenoise64\LICENSE.txt" />
+     <None Include="Assets\Resources\shaders\ColorGrading.cginc" />
+     <None Include="Assets\Resources\shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\Resources\bluenoise64\COPYING.txt" />
+     <None Include="Assets\Resources\shaders\blit.shader" />
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WebModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticlesLegacyModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/home/femboytotoso/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
+ <HintPath>/home/femboytotoso/Documents/decomp/stickfight/ExportedProject/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
+ <HintPath>/home/femboytotoso/Documents/decomp/stickfight/ExportedProject/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Lidgren.Network">
+ <HintPath>/home/femboytotoso/Documents/decomp/stickfight/ExportedProject/Assets/Plugins/Lidgren.Network.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/home/femboytotoso/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/home/femboytotoso/.config/unity3d/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/home/femboytotoso/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BC3C38AE-ED04-B288-BA63-7F92E64B03B8}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -633,12 +633,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: c32b8d11-d241-4d86-a2d6-90455b9b2d6d
-  projectName: 'Stick Fight: The Game'
-  organizationId: landfall
+  cloudProjectId: 67597620-6643-4c5f-8acb-9c12b4aa02ef
+  projectName: 'Stick Fight: The Game (1)'
+  organizationId: lixodehd
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
